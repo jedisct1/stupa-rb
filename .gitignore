@@ -1,0 +1,14 @@
+.DS_Store
+
+*~
+\#*
+.\#*
+
+coverage
+rdoc
+pkg
+*.gem
+.yardopts
+.yardoc
+.bundle
+Gemfile.lock
