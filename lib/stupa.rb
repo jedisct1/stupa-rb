@@ -1,6 +1,5 @@
 
 require 'faraday'
-require 'awesome_print'
 require 'stupa/tsv'
 require 'stupa/errors'
 
