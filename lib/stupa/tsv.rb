@@ -22,7 +22,7 @@ module TSV
     end
     
     def join(values)
-      raise TSVError, values unless joinable?(values)
+      raise TSVError, values unless joinable?(values) && ! values.empty?
       if values.respond_to?('join')
         values.join("\t")
       else
