@@ -9,6 +9,6 @@ module Stupa
     end
   end
   
-  class StupaServerError < StandardError; end
-  class StupaClientError < StandardError; end
+  class StupaServerError < StupaError; end
+  class StupaClientError < StupaError; end
 end

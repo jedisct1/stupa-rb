@@ -1,3 +1,4 @@
+
 module Stupa
   module VERSION #:nodoc:
     MAJOR = 0
